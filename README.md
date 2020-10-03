@@ -12,6 +12,7 @@ $ cd react-socketio-chatapp
 $ npm install -d
 $ npm install --prefix client
 $ npm install --prefix server
+$ mkdir server/public
 $ npm start
 ```
 ### Configuration
