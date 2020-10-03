@@ -20,3 +20,6 @@ Configure the server address on `client/constants/config.js`
 ```js
 export const SERVER_ADDRESS = "<SERVER_ADDRESS_HERE>"; // e.g. http://localhost:5000
 ```
+
+### Example
+<img src="https://github.com/anilasimbilen/react-socketio-chatapp/blob/master/server/public/chat%20app%20runner.gif" width="400" />
