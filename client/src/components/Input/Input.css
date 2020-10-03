@@ -1,0 +1,94 @@
+.form {
+  display: flex;
+  border-top: 2px solid #d3d3d3;
+}
+
+.input {
+  border: none;
+  border-radius: 0;
+  padding: 5%;
+  width: 60%;
+  font-size: 16px;
+  height: 20px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.sendButton {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #2979ff;
+  padding: 10px 20px;
+  display: inline-block;
+  border: none;
+  width: 20%;
+}
+.cameraButton {
+  border-left: #fff 1px solid;
+}
+.file-form {
+  display: flex !important;
+  width: 100%;
+}
+.files input {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset 0.15s ease-in-out,
+    background-color 0.15s linear;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  padding: 120px 0px 85px 35%;
+  text-align: center !important;
+  margin: 0;
+  width: 100% !important;
+}
+.files input:focus {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset 0.15s ease-in-out,
+    background-color 0.15s linear;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  border: 1px solid #92b0b3;
+}
+.files {
+  position: relative;
+  width: 100%;
+}
+.files:after {
+  pointer-events: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 50px;
+  right: 0;
+  height: 56px;
+  content: "";
+  background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+  display: block;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.color input {
+  background-color: #f1f1f1;
+}
+.files:before {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  right: 0;
+  height: 57px;
+  content: " or drag it here. ";
+  display: block;
+  margin: 0 auto;
+  color: #2ea591;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+}
