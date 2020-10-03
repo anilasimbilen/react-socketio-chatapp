@@ -8,6 +8,7 @@ Install the dependencies and devDependencies and start the application. Server l
 
 ```sh
 $ git clone https://github.com/anilasimbilen/react-socketio-chatapp.git
+$ cd react-socketio-chatapp
 $ npm install -d
 $ npm install --prefix client
 $ npm install --prefix server
